@@ -1,0 +1,103 @@
+span{
+    color: rgb(109, 109, 166);
+}
+
+.box{
+    width: 430px;
+    height: 390px;
+    background-color: #f7f5f9;
+    margin: 2px auto;
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: rgba(150, 96, 252, 0.723);
+    border-radius: 5%;
+    font-size: large;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    
+}
+
+.daysBox{
+    width: 430px;
+    height: 250px;
+    text-align: center;
+    padding: 10px;
+    background-color: #f7f5f9;
+    border-radius: 5%;
+    margin: 2px auto;
+}
+
+.box input{
+    font-size: 16px;
+    background-color: rgba(160, 127, 215, 0.483);
+    width: 50%;
+    padding: 10px;
+    border: rgb(247, 233, 255) solid 2px;
+    text-align: center;
+    border-radius: 5%;
+    color: rgb(109, 109, 166);
+    font-weight: bold;
+}
+
+
+.fiveDays{
+    display: inline-flex;
+    font-size: large;
+    justify-content: space-around;
+    width: 100%;
+}
+.fiveDays span2{
+  color: rgb(109, 109, 166);
+  font-family: sans-serif;
+}
+
+.fiveDays span3{
+  color: rgb(255, 140, 63);
+}
+
+.fiveDays span4{
+  color: rgb(8, 0, 255);
+}
+
+.displayData{
+    text-align: center;
+}
+
+.focus-in-expand-fwd{
+
+    animation: focus-in-expand-fwd 0.8s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    font-family:monospace  ;
+}
+ @keyframes focus-in-expand-fwd {
+    0% {
+      letter-spacing: -0.5em;
+      transform: translateZ(-800px);
+      filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0);
+      filter: blur(0);
+      opacity: 1;
+    }
+  }
+
+  .slide-in-fwd-bottom {
+	animation: slide-in-fwd-bottom 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes slide-in-fwd-bottom {
+    0% {
+      transform: translateZ(-1400px) translateY(800px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateZ(0) translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .kenburns-top-right {
+    animation: kenburns-top-right 10s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite alternate forwards;
+  }

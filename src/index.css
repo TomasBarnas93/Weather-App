@@ -1,0 +1,17 @@
+#root{
+  background-image: url('../src/compontents/images/clouds.jpg');
+  background-size: cover;
+  animation: root 10s cubic-bezier(0.445, 0.050, 0.550, 0.950) infinite alternate forwards;
+}
+
+@keyframes url{
+  0% {
+    transform: scale(1) translate(0, 0);
+    transform-origin: 84% 16%;
+  }
+  100% {
+    transform: scale(1.25) translate(20px, -15px);
+    transform-origin: right top;
+  }
+}
+
